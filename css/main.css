@@ -1,0 +1,53 @@
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+body {
+  color: #ff35c5;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+hr {
+  border: 2px solid #ff35c5;
+  width: 50%;
+}
+
+#options {
+  color: black;
+  background-color: #d64ecf;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.animal {
+  height: 300px;
+  margin: 30px;
+  width: 300px;
+  overflow: hidden;
+}
+
+
+.negative-colors {
+  -ms-filter: invert(100%)
+  -moz-filter: invert(100%)
+  -o-filter: invert(100%)
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.sepia{
+  -ms-filter: sepia(100%)
+  -moz-filter: sepia(100%)
+  -o-filter: sepia(100%)
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+}
+
+.white-black {
+  -ms-filter: grayscale(100%)
+  -moz-filter: grayscale(100%)
+  -o-filter: grayscale(100%)
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
