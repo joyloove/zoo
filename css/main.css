@@ -18,6 +18,7 @@ hr {
   color: black;
   background-color: #d64ecf;
   font-family: 'Varela Round', sans-serif;
+  outline: none;
 }
 
 .animal {
